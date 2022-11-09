@@ -20,6 +20,9 @@
     padding: 20px;
     color: whitesmoke;
 }
+.logo{
+    width: 160px;
+}
 
 .nav-links{
     display: flex;
@@ -36,7 +39,7 @@
 header{
     width:100vw;
     height:100vh;
-    background-image:url(./imagenes/banner.jpg);
+    background-image:url(./img-disney/banner1.jpg);
     background-position:bottom;
     background-size:cover;
     display:flex;
@@ -47,12 +50,13 @@ header{
 
 .header-content{
     margin-bottom: 150px;
-    color: whitesmoke;
+    color: blue;
     text-align: center;
 }
 
 .header-content h2{
     font-size: 4vmin;
+    -webkit-text-stroke: 1px black;
 }
 
 .line{
@@ -64,10 +68,10 @@ header{
 }
 h1{
     padding: 15px;
+    -webkit-text-stroke: 1px black;
 }
 .header-content h1{
     font-size: 7vmin;
-    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -114,7 +118,7 @@ h1{
 /*segunda parte*/
 .img{
     width: 350px;
-    height: 250px;
+    height: 600px;
     padding-left: 30px;
     align-items: center;
 }
@@ -195,7 +199,7 @@ section{
 .explore{
     width: 100%;
     height: 150vh;
-    background-image: url(./imagenes/backgraund.jpg);
+    background-image: url(./img-disney/background-img7.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,6 +207,7 @@ section{
     align-items: center;
 }
 .explore-content{
+    font-size: small;
     width: 60px;
     padding: 50px;
     color: whitesmoke;
@@ -222,7 +227,10 @@ section{
 .explore-content p{
     color: antiquewhite;
     padding-left: 500px;
-
+}
+.explore .video{
+    display: flex;
+    margin-left: 40%;
 }
 .ctn3{
     padding: 30px;
@@ -286,6 +294,6 @@ div > div > img {
     height: 200px;
     padding: 20px 80px;
     margin: 0;
-    background: #484872 ;
+    background: #2b2bb4 ;
     text-align: center;
 }
