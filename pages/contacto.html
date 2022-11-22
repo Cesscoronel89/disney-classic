@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Contacto Disney Classics </title>
+        <link rel="stylesheet" href="../estilos/reset.css">
+        <link rel="stylesheet" href="../estilos/contacto.css">
+        
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar">
+                <img src="../img-disney/logo1.png" alt="logo" class="logo"> 
+                <ul class="nav-links">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">SUCURSALES</a></li>
+                    <li class="ctn"><a href="./contacto.html">CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form>
+
+                <label for="nombreapellido"> Nombre y Apellido </label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico"> Correo Electrónico </label>
+                <input type="email" id="correoelectronico"class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono"> Teléfono </label>
+                <input type="tel" id="telefono"class="input-padron" required placeholder="(xx) xxxx xxxxxx">
+
+                <label for="mensaje"> Mensaje </label>
+                <textarea id="mensaje" class="input-padron" cols="70" rows="10" required></textarea>
+
+                    <fieldset>
+
+                        <p>¿Como le gustaría que los contactemos?</p>
+
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"> Email </label>
+                        
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono"> Teléfono </label>
+                        
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> WhastApp </label>
+
+                    </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked> ¿Le gustaría recibir novedades de la Barbería Alura?</label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+                
+            </form>
+
+        </main>
+
+        <section class="footer">
+            <p>Codificado por Cecilia Coronel Misiones Argentina</p>
+            <a href="https://www.linkedin.com/in/cecilia-coronel-204667232/"><img class="social" src="../img-disney/linkedin1.png" alt="linkedin"></a> 
+            <a href="https://github.com/Cesscoronel89"><img class="social" src="../img-disney/github3.png" alt="github"></a> 
+        </section>
+        
+    </body>
+
+
+</html>
