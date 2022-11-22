@@ -121,7 +121,7 @@ h1{
     height: 600px;
     padding: 2rem;
     align-items: center;
-    box-shadow: 5px 5px 15px 15px blue;
+    box-shadow: 20px 0px 30px 5px blue;
 }
 
 .tittle{
@@ -147,7 +147,7 @@ h1{
     width: 80%;
 }
 
-.events .row{
+.princesas .row{
     margin-top: 50px;
 }
 
@@ -176,7 +176,7 @@ p{
     align-items: center;
 }
 
-.events .ct2{
+.princesas .ct2{
     margin-top: 20px;
 }
 
@@ -198,7 +198,7 @@ section{
     margin: 80px auto;
 }
 /*final de configuraciones generales*/
-.explore{
+.inicio{
     width: 100%;
     height: 160vh;
     background-image: url(./img-disney/background-img7.jpg);
@@ -208,7 +208,7 @@ section{
     display: flex;
     align-items: center;
 }
-.explore-content{
+.inicio-content{
     font-size: small;
     width: 60px;
     padding: 50px;
@@ -217,20 +217,20 @@ section{
     align-items: center;
     flex-direction: column;
 }
-.explore-content h1{
+.inicio-content h1{
     font-size: 4vmin;
     padding-left: 470px;
 }
 
-.explore-content .line{
+.inicio-content .line{
     margin-bottom: 50px;
     margin-left: 170px;
 }
-.explore-content p{
+.inicio-content p{
     color: antiquewhite;
     padding-left: 500px;
 }
-.explore .video{
+.inicio .video{
     display: flex;
     margin-left: 40%;
 }
@@ -246,20 +246,25 @@ section{
     color: aliceblue;
 }
 /*tercera parte*/
-.tours{
+.infaltables{
     margin-left: 250px;
 }
 
 .content-col{
     width: 40%;
+    padding-right: 30px;
 }
 
-.tours .image-galery{
+.image-galery{
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
+.image1:hover , .image2:hover , .image3:hover , .image4:hover{
+    opacity: 0.3;
+}
 
-.tours .row .col{
+.infaltables .row .col{
     width: 50%;
 }
 
